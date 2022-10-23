@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="order1.aspx.cs" Inherits="WebApplication2.order1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="false" CodeBehind="order1.aspx.cs" Inherits="WebApplication2.order1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="bootstrap/bootstrap.css" rel="stylesheet" />
     

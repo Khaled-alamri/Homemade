@@ -25,7 +25,7 @@ namespace WebApplication2
         protected void UploadButton_Click(object sender, EventArgs e)
         {
             
-            String savePath = @"C:\Users\Khaled\OneDrive\Desktop\WebApplication22\WebApplication2\foodimg\";
+            String savePath = @"C:\Users\wwsse\OneDrive\Desktop\WebApplication22\WebApplication2\foodimg\";
           
             if (FileUpload1.HasFile)
             {
@@ -45,7 +45,7 @@ namespace WebApplication2
             }
             try
             {
-                string prodect = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Khaled\OneDrive\Desktop\WebApplication22\WebApplication2\App_Data\Database.mdf;Integrated Security=True";
+                string prodect = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\wwsse\OneDrive\Desktop\WebApplication22\WebApplication2\App_Data\Database.mdf;Integrated Security=True";
             SqlConnection con = new SqlConnection(prodect);
             con.Open();
             string sql = "insert into proudect values(@name,@F,@price,@d,@P,@x)";

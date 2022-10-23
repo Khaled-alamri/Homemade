@@ -59,7 +59,7 @@ namespace WebApplication2
         }
         private void rep_bind()
         {
-            string Search = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Khaled\OneDrive\Desktop\WebApplication22\WebApplication2\App_Data\Database.mdf;Integrated Security=True";
+            string Search = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\wwsse\OneDrive\Desktop\WebApplication22\WebApplication2\App_Data\Database.mdf;Integrated Security=True";
             SqlConnection con = new SqlConnection(Search);
             string query = "select * from proudect where proudectName like'" + TextBox1.Text + "%'";
             SqlDataAdapter da = new SqlDataAdapter(query, con);
@@ -72,7 +72,7 @@ namespace WebApplication2
         protected void Button1_Click(object sender, EventArgs e)
         {
 
-            string Search = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Khaled\OneDrive\Desktop\WebApplication22\WebApplication2\App_Data\Database.mdf;Integrated Security=True";
+            string Search = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\wwsse\OneDrive\Desktop\WebApplication22\WebApplication2\App_Data\Database.mdf;Integrated Security=True";
             SqlConnection con = new SqlConnection(Search);
             con.Open();
             string query = "select * from proudect where proudectName like'" + TextBox1.Text + "%'";

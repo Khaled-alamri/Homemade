@@ -31,7 +31,7 @@ namespace WebApplication2
             s1.Text = b;
             DataTable dt = new DataTable("C");
             dt = (DataTable)Session["buyitems"];
-            string pn = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Khaled\OneDrive\Desktop\WebApplication22\WebApplication2\App_Data\Database.mdf;Integrated Security=True";
+            string pn = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\wwsse\OneDrive\Desktop\WebApplication22\WebApplication2\App_Data\Database.mdf;Integrated Security=True";
             SqlConnection con = new SqlConnection(pn);
             con.Open();
             string sql = "insert into o1 (price, Quantity, proudectName, comment, phone, UsernameID, Username_f, order_stats, total) values(@f,@p,@d,@w,@q,@g,@v,@m,@oo)";

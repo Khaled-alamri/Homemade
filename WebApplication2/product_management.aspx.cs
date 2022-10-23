@@ -33,7 +33,7 @@ namespace WebApplication2
 
 
 
-            string prodect = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Khaled\OneDrive\Desktop\WebApplication22\WebApplication2\App_Data\Database.mdf;Integrated Security=True";
+            string prodect = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\wwsse\OneDrive\Desktop\WebApplication22\WebApplication2\App_Data\Database.mdf;Integrated Security=True";
             SqlConnection con = new SqlConnection(prodect);
             con.Open();
             string sql = "Delete from proudect where ProudectID=" + e.CommandArgument.ToString() + "";

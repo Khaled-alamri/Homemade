@@ -16,7 +16,7 @@ namespace WebApplication2
         {
             try
             {
-                string a = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Khaled\OneDrive\Desktop\WebApplication22\WebApplication2\App_Data\Database.mdf;Integrated Security=True";
+                string a = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\wwsse\OneDrive\Desktop\WebApplication22\WebApplication2\App_Data\Database.mdf;Integrated Security=True";
                 SqlConnection con = new SqlConnection(a);
                 string sql = "select * from user12 where UsernameID=@L and password=@p";
                 SqlCommand cmd = new SqlCommand(sql, con);

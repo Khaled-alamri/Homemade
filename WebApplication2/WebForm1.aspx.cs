@@ -53,7 +53,7 @@ namespace WebApplication2
                     {
 
                         dr = dt.NewRow();
-                        String mycon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Khaled\OneDrive\Desktop\WebApplication22\WebApplication2\App_Data\Database.mdf;Integrated Security=True";
+                        String mycon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\wwsse\OneDrive\Desktop\WebApplication22\WebApplication2\App_Data\Database.mdf;Integrated Security=True";
                         SqlConnection scon = new SqlConnection(mycon);
                         String myquery = "select * from proudect where ProudectID=" + id.Text;
                         SqlCommand cmd = new SqlCommand();
@@ -86,7 +86,7 @@ namespace WebApplication2
                         sr = dt.Rows.Count;
 
                         dr = dt.NewRow();
-                        String mycon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Khaled\OneDrive\Desktop\WebApplication22\WebApplication2\App_Data\Database.mdf;Integrated Security=True"; ;
+                        String mycon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\wwsse\OneDrive\Desktop\WebApplication22\WebApplication2\App_Data\Database.mdf;Integrated Security=True"; ;
                         SqlConnection scon = new SqlConnection(mycon);
                         String myquery = "select * from proudect where ProudectID=" + id.Text;
                         SqlCommand cmd = new SqlCommand();
