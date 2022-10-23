@@ -1,0 +1,13 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+.container {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    bottom: 25%;
+    right: 25%;
+    border-radius: 7px;
+}
+
